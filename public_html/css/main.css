@@ -7,7 +7,8 @@ body {
      padding-top: 50px;
      padding-bottom: 20px;
      background-color: #eeeeee;
-     font-family: Ubuntu
+     font-family: Ubuntu;
+     overflow-x: hidden;
  }
  /******header************/
 .navbar-brand > img {
@@ -77,6 +78,31 @@ body {
     background-color: #fff;
 }
 
+
+.title-block {
+    background: url("../img/bg-title.jpg") no-repeat;
+    background-size: 100%;
+}
+
+.single-page {
+    background-color: #fff;
+    background-image: url("../img/single-page-bg.png");
+    background-repeat: no-repeat;
+    margin: 35px 0 20px 15px;
+    padding: 45px;
+    width: 94%;
+}
+
+.single-page > h3 {
+    padding: 0 51px 0 0;
+    width: 64%;
+}
+
+.single-page > p{
+    padding: 20px 0 0;
+    font-size:18px;
+}
+
 /**********navigation**********************/
 
 header .navbar.navbar-inverse.navbar-fixed-top {
@@ -119,6 +145,7 @@ header .search-bar {
     background-color: #fff;
     padding: 1em;
     width: 96.5%;
+    margin:0 0 27px 0;
 }
 
 .partners .col-xs-6.col-md-2,.partners .col-xs-6.col-md-3{
@@ -143,9 +170,9 @@ footer
 {   
     background-color: #fff;
     border-top: 5px solid #6EA1CA;
-    height: 295px;
+    min-height: 295px;
     left: 0;
-    margin: 97px 0 0;
+    //margin: 97px 0 0;
     padding: 25px 0 0;
     position: absolute;
     right: 0;
@@ -282,25 +309,20 @@ footer
 
 
 
-.title-block {
-    background: url("../img/bg-title.jpg") no-repeat;
-    background-size: 100%;
-}
-
-.single-page {
+.parceiros-page {
     background-color: #fff;
-    background-image: url("../img/single-page-bg.png");
+    background-image: url("../img/partners-bg.png");
     background-repeat: no-repeat;
-    margin: 59px 0 20px 15px;
+    height: 275px;
+    margin: 35px 0 20px 15px;
     padding: 45px;
     width: 94%;
 }
-
-.single-page > h3 {
-    padding: 0 51px 0 0;
+.parceiros-page .col-md-4 > img {
+    padding: 76px 0 85px;
 }
 
-.single-page > p{
-    padding: 0 0 20px;
-    font-size:18px;
+.parceiros-page .col-md-4 {
+    background-color: #F2F5F9;
+    border: 5px none;
 }
