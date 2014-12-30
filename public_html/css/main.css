@@ -74,16 +74,11 @@ body {
 
 /**********Single page********************/
 
-.single-page {
-    background-color: #fff;
-}
-
 
 .title-block {
     background: url("../img/bg-title.jpg") no-repeat;
     background-size: 100%;
 }
-
 .single-page {
     background-color: #fff;
     background-image: url("../img/single-page-bg.png");
@@ -92,6 +87,7 @@ body {
     padding: 45px;
     width: 94%;
 }
+
 
 .single-page > h3 {
     padding: 0 51px 0 0;
@@ -165,6 +161,102 @@ header .search-bar {
     padding: 17px 0 0;
 }
 
+
+/*********Noticia Page**************/
+
+.noticia-page {
+    background-color: #fff;
+    border-top:5px solid #D2CFBD;
+    background-repeat: no-repeat;
+    margin: 35px 0 20px 15px;
+    padding: 45px;
+    width: 94%;
+}
+
+
+.noticia-page > h3 {
+    padding: 0 51px 0 0;
+    
+}
+
+.noticia-page > p{
+    padding: 20px 0 0;
+    font-size:18px;
+}
+
+.noticia-date {
+    padding: 7px 0 26px;
+}
+.col-md-12.noticia-breadcrumb {
+    margin: 22px 0 -26px 5px;
+}
+
+.row.agenda-arrow {
+    margin: 17px 21px -11px -8px;
+}
+.agenda-icon > img {
+    margin: 0 0 9px;
+    padding: 0 8px 0 6px;
+}
+
+.agenda-icon > span {
+    color: #9B9FA1;
+    font-size: 20px;
+}
+
+.agenda-button{    
+    background-color: #2073b3;
+    border-bottom: 3px solid #b2162f;
+    color: #fff;
+    font-size: 20px;
+    padding: 7px 16px;
+}
+.agenda-page .col-md-8 > h2 {
+    margin: 0 0 8px;
+}
+
+.agenda-btn {
+    margin: 26px 5px 0;
+}
+
+
+.row.left-right-arrow {
+    padding: 0 45px 28px 18px;
+}
+
+
+
+
+.agenda-single-page-page .col-md-4 {
+    background-color: #F2F5F9;
+    border: 5px none;
+}
+
+
+
+.agenda-single-page {
+    background-color: #fff;
+    border-top:5px solid #D2CFBD;
+    background-repeat: no-repeat;
+    margin: 35px 0 20px 15px;
+    padding: 45px;
+    width: 94%;
+}
+
+
+.agenda-single-page > h3 {
+    padding: 0 51px 0 0;
+    
+}
+
+.agenda-single-page > p{
+    padding: 20px 0 0;
+    font-size:18px;
+}
+.row.agenda-single-page-meta {
+    margin: 0 3px 0 -20px;
+    padding: 12px 0 0;
+}
 /**************footer*************/
 footer
 {   
@@ -313,7 +405,7 @@ footer
     background-color: #fff;
     background-image: url("../img/partners-bg.png");
     background-repeat: no-repeat;
-    height: 275px;
+    height: 300px;
     margin: 35px 0 20px 15px;
     padding: 45px;
     width: 94%;
@@ -323,6 +415,24 @@ footer
 }
 
 .parceiros-page .col-md-4 {
+    background-color: #F2F5F9;
+    border: 5px none;
+}
+
+.noticias-page {
+    background-color: #fff;
+    background-image: url("../img/partners-bg.png");
+    background-repeat: no-repeat;
+    height: 300px;
+    margin: 35px 0 20px 15px;
+    padding: 45px;
+    width: 94%;
+}
+.noticias-page .col-md-4 > img {
+    padding: 76px 0 85px;
+}
+
+.noticias-page .col-md-4 {
     background-color: #F2F5F9;
     border: 5px none;
 }
