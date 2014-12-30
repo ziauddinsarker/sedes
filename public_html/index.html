@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Home</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+      
+        
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link href="css/royalslider.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+  
+         <style>
+      #full-width-slider {
+  width: 100%;
+  color: #000;
+}
+#full-width-slider * {
+   -webkit-backface-visibility: inherit;
+}
+.coloredBlock {
+  padding: 12px;
+  background: rgba(255,0,0,0.6);
+  color: #FFF;
+   width: 200px;
+   left: 20%;
+   top: 5%;
+}
+.infoBlock {
+  position: absolute;
+  top: 30px;
+  right: 202px;
+  left: auto;
+  max-width: 25%;
+  padding-bottom: 0;
+  background: #FFF;
+  background: rgba(255, 255, 255, 0.8);
+  overflow: hidden;
+  padding: 20px;
+}
+.infoBlockLeftBlack {
+  color: #FFF;
+  background: #000;
+  background: rgba(0,0,0,0.75);
+  left: 30px;
+  right: auto;
+}
+.infoBlock h4 {
+  font-size: 20px;
+  line-height: 1.2;
+  margin: 0;
+  padding-bottom: 3px;
+}
+.infoBlock p {
+  font-size: 14px;
+  margin: 4px 0 0;
+}
+.infoBlock a {
+  color: #FFF;
+  text-decoration: underline;
+}
+.photosBy {
+  position: absolute;
+  line-height: 24px;
+  font-size: 12px;
+  background: #FFF;
+  color: #000;
+  padding: 0px 10px;
+  position: absolute;
+  left: 12px;
+  bottom: 12px;
+  top: auto;
+  border-radius: 2px;
+  z-index: 25; 
+} 
+.photosBy a {
+  color: #000;
+}
+.fullWidth {
+  max-width: 1400px;
+  margin: 0 auto 24px;
+}
+
+@media screen and (min-width:960px) and (min-height:660px) {
+  .heroSlider .rsOverflow,
+  .royalSlider.heroSlider {
+      height: 520px !important;
+  }
+}
+
+@media screen and (min-width:960px) and (min-height:1000px) {
+    .heroSlider .rsOverflow,
+    .royalSlider.heroSlider {
+        height: 660px !important;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 800px) {
+  .royalSlider.heroSlider,
+  .royalSlider.heroSlider .rsOverflow {
+    height: 300px !important;
+  }
+  .infoBlock {
+    padding: 10px;
+    height: auto;
+    max-height: 100%;
+    min-width: 40%;
+    left: 5px;
+    top: 5px;
+    right: auto;
+    font-size: 12px;
+  }
+  .infoBlock h3 {
+     font-size: 14px;
+     line-height: 17px;
+  }
+}
+
+    </style>    
+
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <header>
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" >
+           <div class="container">
+             <!-- Brand and toggle get grouped for better mobile display -->
+             <div class="navbar-header">
+               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                 <span class="sr-only">Toggle navigation</span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+               </button>
+               <a class="navbar-brand" href="#"> <img src="img/header-logo.png" alt=""/></a>
+              
+             </div>
+
+             <!-- Collect the nav links, forms, and other content for toggling -->
+             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+               <ul class="nav navbar-nav">
+                 <li class="active"><a href="index.html">Institucional<span class="sr-only">(current)</span></a></li>
+                 <li><a href="#">Parceiros</a></li>
+                 <li><a href="#">Notícias</a></li>
+                 <li><a href="#">Agenda</a></li>
+                 <li><a href="#">Mídia</a></li>
+                 <li><a href="#">faqs</a></li>
+                 <li><a href="#">legislação</a></li>
+                 <li><a href="#">Downloads</a></li>             
+                 <li class="dropdown">
+                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Fale conosco<span class="caret"></span></a>
+                   <ul class="dropdown-menu" role="menu">
+                     <li><a href="#">Action</a></li>
+                     <li><a href="#">Another action</a></li>
+                     <li><a href="#">Something else here</a></li>
+                     <li class="divider"></li>
+                     <li><a href="#">Separated link</a></li>
+                     <li class="divider"></li>
+                     <li><a href="#">One more separated link</a></li>
+                   </ul>
+                 </li>
+               </ul>    
+               
+             </div><!-- /.navbar-collapse -->
+           </div><!-- /.container-fluid -->
+         </nav>
+            <div class="search-bar">
+            <a href="#"><img src="img/search.png" alt=""/></a>
+            </div>
+        </header>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+   
+    <article>
+        <div class="sliderContainer fullWidth clearfix">
+        <div style="height: 491.823px;" id="full-width-slider" class="royalSlider heroSlider rsMinW rsHor rsWithBullets"><div style="cursor: grab; width: 1349px; height: 492px;" class="rsOverflow"><div style="transition-duration: 0s; transform: translate3d(-1357px, 0px, 0px); transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);" class="rsContainer"><div style="left: 0px;" class="rsSlide "><div style="visibility: visible; opacity: 1; transition: opacity 400ms ease-in-out 0s;" class="rsContent">
+            <img style="width: 1349px; height: 656px; margin-left: 0px; margin-top: -82px;" class="rsImg rsMainSlideImage" src="img/royal/1.jpg" alt="">
+            <div style="display: none; transform: translate3d(0px, 0px, 0px); opacity: 1; transition-property: -moz-transform, opacity; transition-duration: 0ms; transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);" class="infoBlock infoBlockLeftBlack rsABlock" data-fade-effect="" data-move-offset="10" data-move-effect="bottom" data-speed="200">
+              <h4>This is an animated block, add any number of them to any type of slide</h4>
+              <p>Put completely anything inside - text, images, inputs, links, buttons.</p>
+            </div>
+          </div></div><div style="left: 1357px;" class="rsSlide "><div class="rsContent">
+            <img style="width: 1349px; height: 656px; margin-left: 0px; margin-top: -82px;" class="rsImg rsMainSlideImage" src="img/royal/2.jpg" alt="">
+             <div class="infoBlock  rsAbsoluteEl" style="color:#000;" data-fade-effect="" data-move-offset="10" data-move-effect="bottom" data-speed="200">
+                 
+              <h4>This is a static HTML block</h4>
+              <p>It's always displayed and not animated by slider.</p>
+            </div>
+          </div></div><div style="left: 2714px;" class="rsSlide "><div class="rsContent">
+            <img style="width: 1349px; height: 656px; margin-left: 0px; margin-top: -82px;" class="rsImg rsMainSlideImage" src="img/royal/3.jpg" alt="">
+            <div style="display: none;" class="infoBlock rsABlock infoBlockLeftBlack" data-fade-effect="" data-move-offset="10" data-move-effect="bottom" data-speed="200">
+              <h4>You can link to this slide by adding #3 to url.</h4>
+              <p><a href="http://dimsemenov.com/plugins/royal-slider/gallery-with-deeplinking/">Learn more</a></p>
+            </div>
+          </div></div><div style="left: 4071px;" class="rsSlide "><div class="rsContent">
+            <img style="width: 1349px; height: 656px; margin-left: 0px; margin-top: -82px;" class="rsImg rsMainSlideImage" src="img/royal/4.jpg" alt="">
+            <span class="photosBy rsAbsoluteEl" data-fade-effect="fa;se" data-move-offset="40" data-move-effect="bottom" data-speed="200">Photos by <a href="http://www.flickr.com/photos/gilderic/">Gilderic</a></span>
+          </div></div></div></div><div class="rsNav rsBullets"><div class="rsNavItem rsBullet"><span></span></div><div class="rsNavItem rsBullet rsNavSelected"><span></span></div><div class="rsNavItem rsBullet"><span></span></div><div class="rsNavItem rsBullet"><span></span></div></div><div style="display: block;" class="rsArrow rsArrowLeft"><div class="rsArrowIcn"></div></div><div style="display: block;" class="rsArrow rsArrowRight"><div class="rsArrowIcn"></div></div><div class="rsGCaption"></div></div>
+          </div>
+    </article>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+          <!-- latest news columns -->
+          <div class="col-md-5">
+              <div class="col-md-12 home-notice">
+                <img class="img-responsive" src="img/imgdefault.jpg" alt=""/>
+                <span class=""><img  src="img/icon-newspaper.png" alt=""/><br>
+                    <p>NOTÍCIAS</p> 
+                </span>               
+                <p> Escola de Conselhos da Bahia abre unidade em Feira de Santana</p>
+                
+              </div>
+                
+          </div>
+          
+          <div class="col-md-7 row">
+             
+              <!-- Latest agenda -->
+            <div class="col-md-6 home-agenda home-news">
+                <div class="home-news">
+                <span class=""><img src="img/icon-newspaper.png" alt=""/><br>
+                    <p>AGENDA</p>
+                    <p>13/11/14</p>
+                </span>               
+                <p>Escola de Conselhos da Bahia abre unidade em Feira de Santana</p>
+                </div>
+            </div>
+              
+             <div class="col-md-6 home-media home-news">
+                <div class="home-news">
+                <span class=""><img src="img/icon-newspaper.png" alt=""/><br>
+                    <p>AGENDA</p>
+                    <p>13/11/14</p>
+                </span>               
+                <p>Escola de Conselhos da Bahia abre unidade em Feira de Santana</p>
+                </div>
+            </div>
+             <div class="col-md-6 home-download home-news">
+                 <div class="home-news">
+                    <span class=""><img src="img/icon-newspaper.png" alt=""/><br>
+                        <p>AGENDA</p>
+                        <p>13/11/14</p>
+                    </span>               
+                    <p>Escola de Conselhos da Bahia abre unidade em Feira de Santana</p>
+                 </div>
+            </div>
+            <div class="col-md-6 home-faqs home-news">
+                <div class="home-news">
+                    <span class=""><img src="img/icon-newspaper.png" alt=""/><br>
+                        <p>AGENDA</p>
+                        <p>13/11/14</p>
+                    </span>               
+                    <p>Escola de Conselhos da Bahia abre unidade em Feira de Santana</p>
+                </div>      
+            </div>
+      </div>
+      </div>
+      
+      <div class="col-md-12 partners">
+          <div class="col-xs-6 col-md-2 uneb">
+            <a href="#">
+                <img class="img-responsive" src="img/partners/uneb.png" alt=""/>
+            </a>
+          </div>
+           <div class="col-xs-6 col-md-2 ceca">
+            <a href="#">
+              <img class="img-responsive" src="img/partners/ceca.png" alt=""/>
+            </a>
+          </div>
+           <div class="col-xs-6 col-md-3 sedes">
+            <a href="#">
+             <img class="img-responsive" src="img/partners/sedes.png" alt=""/>
+            </a>
+          </div>
+            <div class="col-xs-6 col-md-2 conanda">
+            <a href="#">
+               <img class="img-responsive " src="img/partners/conanda.png" alt=""/>
+            </a>
+          </div>
+           <div class="col-xs-6 col-md-2 br">
+            <a href="#">
+                 <img class="img-responsive /br" src="img/partners/br.png" alt=""/>
+                 
+            </a>
+          </div> 
+      </div>
+
+
+      <hr>
+
+      <footer class="container-fluid">
+          <div class="row">
+          
+              <div class="col-md-2 col-md-offset-1">
+                  <img src="img/footer-logo.png" alt=""/>
+              </div>
+              
+              <div class="col-md-5">
+                  <div class="footer-link">
+                  <ul>
+                      <li><a href="#">institucional</a></li>
+                      <li><a href="#">parceiros</a></li>
+                      <li><a href="#">notícias</a></li>
+                      <li><a href="#">agenda</a></li>
+                      <li><a href="#">mídia</a></li>
+                      <li><a href="#">faqs</a></li>
+                      <li><a href="#">legislação</a></li>
+                      <li><a href="#">downloads</a></li>
+                      <li><a href="#">fale conosco</a></li>
+                  </ul>
+                  </div>
+                  
+                  <div class="copyright">
+                      <p>&copy; 2014 Escola de Conselhos do estado da Bahia Todos os direitos reservados</p>
+                  </div>
+                  
+              </div>
+              
+              <div class="col-md-4">
+              <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FFacebookDevelopers&amp;width&amp;height=258&amp;colorscheme=light&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=true&amp;appId=1515865968668043" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:258px;" allowTransparency="true"></iframe>
+              </div>
+              
+          </div>
+      </footer>
+      </div>   
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/vendor/jquery.royalslider.min.js" type="text/javascript"></script>
+        <script src="js/main.js"></script>
+
+         <script>
+      jQuery(document).ready(function($) {
+        $('#full-width-slider').royalSlider({
+          arrowsNav: true,
+          loop: false,
+          keyboardNavEnabled: true,
+          controlsInside: false,
+          imageScaleMode: 'fill',
+          arrowsNavAutoHide: false,
+          autoScaleSlider: true, 
+          autoScaleSliderWidth: 960,     
+          autoScaleSliderHeight: 350,
+          controlNavigation: 'bullets',
+          thumbsFitInViewport: false,
+          navigateByClick: true,
+          startSlideId: 0,
+          autoPlay: false,
+          transitionType:'move',
+          globalCaption: true,
+          deeplinking: {
+            enabled: true,
+            change: false
+          },
+          /* size of all images http://help.dimsemenov.com/kb/royalslider-jquery-plugin-faq/adding-width-and-height-properties-to-images */
+          imgWidth: 1400,
+          imgHeight: 680
+        });
+      });
+
+          </script>
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+        
+        
+    </body>
+</html>

@@ -1,0 +1,141 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+*/ 
+body {
+     padding-top: 50px;
+     padding-bottom: 20px;
+     background-color: #eeeeee;
+ }
+ /******header************/
+.navbar-brand > img {
+    margin: -9px 0 8px;
+}
+
+
+/***********Body************/
+.home-notice {
+    background: url("../img/bgnotice.png") no-repeat;
+    height: 423px;
+}
+
+.home-notice img{
+    padding: 16px 0 8px 3px;
+}
+
+.home-agenda {
+    background: url("../img/imgagenda.png") no-repeat;
+}
+
+
+.home-media {
+    background: url("../img/imgmidia.png") no-repeat;
+}
+
+.home-download {
+    background: url("../img/imgdownload.png") no-repeat;
+}
+
+.home-faqs {
+    background: url("../img/imghelp.png") no-repeat;
+}
+
+.home-news {
+    padding: 20px 19px 25px 8px;
+}
+
+/**********navigation**********************/
+
+header .navbar.navbar-inverse.navbar-fixed-top {
+    background-color: #0A619D;
+    border-color: #0A619D;
+    background-image:none;
+    
+}
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: transparent;
+    border-bottom: 5px solid red;
+    color: #9DB0D0;
+}
+header .search-bar {
+    float: right;
+    margin: -36px 0 0;
+    position: fixed;
+    right: 12%;
+    z-index: 9999;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .active > a {
+    background-image: none;
+    background-repeat: repeat-x;
+    box-shadow:none;
+}
+
+
+.partners {
+    background-color: #fff;
+    padding: 1em;
+    width: 96.5%;
+}
+
+.partners .col-xs-6.col-md-2,.partners .col-xs-6.col-md-3{
+    padding:12px 1px 2px 83px;
+}
+
+.sedes a img.img-responsive {
+    padding: 22px 0 0;
+}
+
+.conanda a img.img-responsive {
+    margin: 0 0 0 -19px;
+    padding: 19px 0 0;
+}
+
+.br a img.img-responsive {
+    padding: 17px 0 0;
+}
+
+/**************footer*************/
+footer
+{   
+    background-color: #fff;
+    border-top: 5px solid #6EA1CA;
+    height: 295px;
+    left: 0;
+    margin: 97px 0 0;
+    padding: 25px 0 0;
+    position: absolute;
+    right: 0;
+    width: 100%;
+   
+}
+.footer-link > ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.footer-link {
+    height: 160px;
+    padding: 82px 0 0;
+}
+
+.footer-link ul li{
+    display: inline-block;
+    float: left;
+    padding: 0 0 0 10px;
+    font-size: 21px;
+}
+.copyright {
+    display:inline-block;
+}
