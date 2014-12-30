@@ -20,109 +20,7 @@
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
   
          <style>
-      #full-width-slider {
-  width: 100%;
-  color: #000;
-}
-#full-width-slider * {
-   -webkit-backface-visibility: inherit;
-}
-.coloredBlock {
-  padding: 12px;
-  background: rgba(255,0,0,0.6);
-  color: #FFF;
-   width: 200px;
-   left: 20%;
-   top: 5%;
-}
-.infoBlock {
-  position: absolute;
-  top: 30px;
-  right: 202px;
-  left: auto;
-  max-width: 25%;
-  padding-bottom: 0;
-  background: #FFF;
-  background: rgba(255, 255, 255, 0.8);
-  overflow: hidden;
-  padding: 20px;
-}
-.infoBlockLeftBlack {
-  color: #FFF;
-  background: #000;
-  background: rgba(0,0,0,0.75);
-  left: 30px;
-  right: auto;
-}
-.infoBlock h4 {
-  font-size: 20px;
-  line-height: 1.2;
-  margin: 0;
-  padding-bottom: 3px;
-}
-.infoBlock p {
-  font-size: 14px;
-  margin: 4px 0 0;
-}
-.infoBlock a {
-  color: #FFF;
-  text-decoration: underline;
-}
-.photosBy {
-  position: absolute;
-  line-height: 24px;
-  font-size: 12px;
-  background: #FFF;
-  color: #000;
-  padding: 0px 10px;
-  position: absolute;
-  left: 12px;
-  bottom: 12px;
-  top: auto;
-  border-radius: 2px;
-  z-index: 25; 
-} 
-.photosBy a {
-  color: #000;
-}
-.fullWidth {
-  max-width: 1400px;
-  margin: 0 auto 24px;
-}
-
-@media screen and (min-width:960px) and (min-height:660px) {
-  .heroSlider .rsOverflow,
-  .royalSlider.heroSlider {
-      height: 520px !important;
-  }
-}
-
-@media screen and (min-width:960px) and (min-height:1000px) {
-    .heroSlider .rsOverflow,
-    .royalSlider.heroSlider {
-        height: 660px !important;
-    }
-}
-@media screen and (min-width: 0px) and (max-width: 800px) {
-  .royalSlider.heroSlider,
-  .royalSlider.heroSlider .rsOverflow {
-    height: 300px !important;
-  }
-  .infoBlock {
-    padding: 10px;
-    height: auto;
-    max-height: 100%;
-    min-width: 40%;
-    left: 5px;
-    top: 5px;
-    right: auto;
-    font-size: 12px;
-  }
-  .infoBlock h3 {
-     font-size: 14px;
-     line-height: 17px;
-  }
-}
+     
 
     </style>    
 
@@ -142,14 +40,14 @@
                  <span class="icon-bar"></span>
                  <span class="icon-bar"></span>
                </button>
-               <a class="navbar-brand" href="#"> <img src="img/header-logo.png" alt=""/></a>
+               <a class="navbar-brand" href="index.html"> <img src="img/header-logo.png" alt=""/></a>
               
              </div>
 
              <!-- Collect the nav links, forms, and other content for toggling -->
              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                <ul class="nav navbar-nav">
-                 <li class="active"><a href="index.html">Institucional<span class="sr-only">(current)</span></a></li>
+                 <li class="active"><a href="institucional.html">Institucional<span class="sr-only">(current)</span></a></li>
                  <li><a href="#">Parceiros</a></li>
                  <li><a href="#">Notícias</a></li>
                  <li><a href="#">Agenda</a></li>
@@ -200,7 +98,7 @@
             <img style="width: 1349px; height: 656px; margin-left: 0px; margin-top: -82px;" class="rsImg rsMainSlideImage" src="img/royal/3.jpg" alt="">
             <div style="display: none;" class="infoBlock rsABlock infoBlockLeftBlack" data-fade-effect="" data-move-offset="10" data-move-effect="bottom" data-speed="200">
               <h4>You can link to this slide by adding #3 to url.</h4>
-              <p><a href="http://dimsemenov.com/plugins/royal-slider/gallery-with-deeplinking/">Learn more</a></p>
+              <p><a href="#">Learn more</a></p>
             </div>
           </div></div><div style="left: 4071px;" class="rsSlide "><div class="rsContent">
             <img style="width: 1349px; height: 656px; margin-left: 0px; margin-top: -82px;" class="rsImg rsMainSlideImage" src="img/royal/4.jpg" alt="">
@@ -216,7 +114,7 @@
           <div class="col-md-5">
               <div class="col-md-12 home-notice">
                 <img class="img-responsive" src="img/imgdefault.jpg" alt=""/>
-                <span class=""><img  src="img/icon-newspaper.png" alt=""/><br>
+                <span class=""><img  src="img/icon-newspaper.png" alt=""/>
                     <p>NOTÍCIAS</p> 
                 </span>               
                 <p> Escola de Conselhos da Bahia abre unidade em Feira de Santana</p>
@@ -225,42 +123,39 @@
                 
           </div>
           
-          <div class="col-md-7 row">
+          <div class="col-md-7 row home-news-block">
              
               <!-- Latest agenda -->
-            <div class="col-md-6 home-agenda home-news">
+            <div class="col-md-6 home-agenda">
                 <div class="home-news">
-                <span class=""><img src="img/icon-newspaper.png" alt=""/><br>
-                    <p>AGENDA</p>
+                <span class="home-news-cat"><img src="img/icon-newspaper.png" alt=""/>
+                    <p>AGENDA</p>                   
+                </span> 
                     <p>13/11/14</p>
-                </span>               
                 <p>Escola de Conselhos da Bahia abre unidade em Feira de Santana</p>
                 </div>
             </div>
               
-             <div class="col-md-6 home-media home-news">
+             <div class="col-md-6 home-media">
                 <div class="home-news">
-                <span class=""><img src="img/icon-newspaper.png" alt=""/><br>
-                    <p>AGENDA</p>
-                    <p>13/11/14</p>
-                </span>               
+               <span class=""><img src="img/icon-newspaper.png" alt=""/>
+                    <p>MIDIA</p>
+                    
+                </span>             
                 <p>Escola de Conselhos da Bahia abre unidade em Feira de Santana</p>
                 </div>
             </div>
-             <div class="col-md-6 home-download home-news">
+             <div class="col-md-6 home-download">
                  <div class="home-news">
-                    <span class=""><img src="img/icon-newspaper.png" alt=""/><br>
-                        <p>AGENDA</p>
-                        <p>13/11/14</p>
-                    </span>               
+                    <img src="img/icon-newspaper.png" alt=""/><br>
+                        <p>DOWNLOADS</p>            
                     <p>Escola de Conselhos da Bahia abre unidade em Feira de Santana</p>
                  </div>
             </div>
-            <div class="col-md-6 home-faqs home-news">
+            <div class="col-md-6 home-faqs">
                 <div class="home-news">
                     <span class=""><img src="img/icon-newspaper.png" alt=""/><br>
-                        <p>AGENDA</p>
-                        <p>13/11/14</p>
+                        <p>FAQS</p>
                     </span>               
                     <p>Escola de Conselhos da Bahia abre unidade em Feira de Santana</p>
                 </div>      
@@ -335,7 +230,7 @@
           </div>
       </footer>
       </div>   
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+        <script src="js/jquery-1.11.1.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.js"><\/script>')</script>
 
         <script src="js/vendor/bootstrap.min.js"></script>
@@ -365,23 +260,13 @@
             enabled: true,
             change: false
           },
-          /* size of all images http://help.dimsemenov.com/kb/royalslider-jquery-plugin-faq/adding-width-and-height-properties-to-images */
           imgWidth: 1400,
           imgHeight: 680
         });
       });
 
           </script>
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
-        
+       
         
     </body>
 </html>
